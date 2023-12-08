@@ -160,7 +160,7 @@ section {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 70px;
   z-index: 99999;
   background: var(--color-primary);
   width: 40px;
@@ -183,6 +183,18 @@ section {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 15px;
+  right: 12px;
+  background: #0AB39C;
+  width: 45px;
+  height: 45px;
+  border-radius: 22px;
+  font-size: 20px;
+  z-index: 1000;
 }
 
 /*--------------------------------------------------------------
@@ -287,7 +299,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0 15px 30px;
+    padding: 15px 17px 15px 17px;
     font-family: var(--font-default);
     font-size: 15px;
     font-weight: 500;
@@ -364,6 +376,22 @@ section {
     left: 100%;
     visibility: visible;
   }
+}
+
+.btn-login{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 10xpx;
+  border-radius: 10px;
+  color: #fff;
+  border: 2px solid #47b2e4;
+  height: 40px;
+  text-align: center;
+}
+.btn-login:hover {
+  color: #fff;
+  background: #31a9e1;
 }
 
 @media (min-width: 1280px) and (max-width: 1366px) {
@@ -495,7 +523,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hds-bg-home.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 120px 0;
@@ -761,7 +789,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/hds-bg-2.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
